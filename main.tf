@@ -1,13 +1,13 @@
 
  terraform {
-  cloud { 
+  # cloud { 
     
-    organization = "Thrinkshive" 
+  #   organization = "Thrinkshive" 
 
-    workspaces { 
-      name = "terra-house-1" 
-    } 
-  } 
+  #   workspaces { 
+  #     name = "terra-house-1" 
+  #   } 
+  # } 
   required_providers {
     random = {
       source = "hashicorp/random"
